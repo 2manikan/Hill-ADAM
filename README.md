@@ -1,2 +1,2 @@
 # Hill-ADAM
-Optimizer that Explores the Loss Space
+Hill-ADAM is an optimizer that explores prescribed loss spaces with the goal of finding the global minimum. In other words, Hill-ADAM escaps local minima in order to enable itself to find the global minimum. It does so by alternating between minimization and maximization goals, allowing the optimizer to make its way over "hills" that the prescribed loss function may contain (these prevent ADAM from finding the global minimum). See Paper: http://arxiv.org/abs/2510.03613
