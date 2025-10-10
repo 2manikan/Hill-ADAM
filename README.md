@@ -13,6 +13,7 @@ One such application of Hill-ADAM is image color correction. A source image's co
 Hill-ADAM is especially useful in instances where the target image is intended to guide rather than an exact reference of the color palette of the source image after color correction (ie. source-to-target color correction with additional constraints -- defined by user -- to palette). This is useful in photography and generative/predictive model training, where a certain mood is expected in a source image but the only available target images are not exactly ideal (ex. when an image needs to have cooler shades but target image is heavily blue-saturated).
 
 NOTE: For visual purposes, the green channel component of the loss function (in the image above) was removed. The neural network illustration has different dimensions than the one used in our investigation.
+NOTE: The loss function in the code is adjusted for amber-saturated to blue-saturated image color correction, with constraints to make the source image avoid excess blue saturation to keep the image realistic.
 
 
 
