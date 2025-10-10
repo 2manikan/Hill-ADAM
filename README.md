@@ -1,4 +1,8 @@
 # Hill-ADAM
+![TinyImage Compressor (Community) (Community) (2)](https://github.com/user-attachments/assets/205a8915-33c5-4285-a4fc-7ab22a8d9827)
+
+
+
 Hill-ADAM is an optimizer that explores prescribed loss spaces with the goal of finding the global minimum. It does so in that it escapes local minima by alternating between minimization and maximization goals, allowing the optimizer to make its way over "hills" that the prescribed loss function may contain (these prevent ADAM from finding the global minimum). See Paper: http://arxiv.org/abs/2510.03613
 
 # Applications
